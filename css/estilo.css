@@ -232,7 +232,7 @@ footer {
   color: white;
   margin: 20px 10px;
   padding: 30px;
-  background-color: #f9f8f8c2;
+  background: linear-gradient(283deg, rgba(0,0,0,1) 35%, rgba(97,94,94,1) 91%);
 }
 footer span {
   margin: 60px 33px;
