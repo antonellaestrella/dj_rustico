@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@100&family=Tapestry&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <img src="../recursos/RÜSTIcLogoadapPEQUE.png" alt="logo de dj rustico" />
+      <nav>
+        <ul>
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="./biografia.html">BIOGRAFIA</a></li>
+          <li><a href="./musica.html">MUSICA</a></li>
+          <li><a href="./eventos.html">EVENTOS</a></li>
+          <li><a href="./galeria.html">GALERIA</a></li>
+          <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contacto">
+      <form class="formulario" action="registrardatos.php" method="post">
+        <fieldset>
+          <legend>Datos personales</legend>
+          Nombre:
+          <input type="text" name="nombre" size="30" /><br />
+          Correo:
+          <input type="text" name="correo" size="30" /><br />
+          Telefono:
+          <input type="text" name="telefono" size="30" /><br />
+
+          <input type="submit" value="Enviar" /> <br />
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <section class="redessociales">
+        <span class="redessociales__facebook">FACEBOOK</span>
+        <span class="redessociales__instagram">INSTAGRAM</span>
+        <span class="redessociales__soundcoud">SOUNDCLOUD</span>
+        <span class="redessociales__mixcloud">MIXCLOUD</span>
+        <span class="redessociales__spotify">SPOTIFY</span>
+        <span class="redessociales__mail">MAIL</span>
+      </section>
+    </footer>
+  </body>
+</html>
