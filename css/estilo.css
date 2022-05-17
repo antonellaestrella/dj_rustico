@@ -137,7 +137,7 @@ section h2 {
 
 .set a {
   color: black;
-  background-color: #f9f8f8c2;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 1px;
   margin: 0px 10px;
   padding: 10px;
@@ -152,11 +152,6 @@ section h2 {
 .biografia__container {
   display: flex;
   margin: 26px;
-}
-
-.biografia__img {
-
-
 }
 
 .biografia__parrafo {
@@ -226,8 +221,32 @@ section h2 {
 }
 
 /*contacto*/
-
+.noticias__container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  padding: 20px 5px;
+}
 .contacto {
+  height: 55vh;
+}
+.formulario__container {
+  padding: 50px 20px;
+  background-color: #929292;
+  width: 40%;
+  background: linear-gradient(
+    283deg,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(97, 94, 94, 1) 91%
+  );
+}
+
+
+
+
+
+
+/* .contacto {
   height: 75vh;
   display: flex;
   justify-content: center;
@@ -235,8 +254,8 @@ section h2 {
 }
 .contacto__contactanos {
   padding: 80px 20px;
-}
-form {
+} */
+/* form {
   display: flex;
   justify-content: center;
 }
@@ -245,7 +264,7 @@ fieldset {
   flex-direction: column;
   padding: 15px;
   width: 40%;
-}
+} */
 section {
   color: white;
 }
