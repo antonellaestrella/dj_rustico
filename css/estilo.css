@@ -21,20 +21,18 @@ header {
 .navbar-dark .navbar-nav .nav-link {
   font-size: 1.1rem;
   margin: 0px 10px;
+  color:white;
 }
 footer {
   color: white;
   padding: 30px;
-  background: linear-gradient(
-    283deg,
-    rgba(0, 0, 0, 1) 35%,
-    rgba(97, 94, 94, 1) 91%
-  );
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(66,73,73,1) 100%);
 }
 footer {
   padding: 30px;
   display: flex;
   justify-content: center;
+  margin-top: 60px;
 }
 footer i {
   font-size: 30px;
@@ -60,6 +58,7 @@ main h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 100px 0px;
 }
 .portada__imagen {
   margin: 0px;
@@ -123,12 +122,10 @@ section h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 40px 0px;
+  margin: 10px 0px;
   padding: 20px 5px;
 }
-.sets__titulo {
-  margin-top: 50px;
-}
+
 .set {
   display: flex;
   align-items: center;
@@ -150,11 +147,14 @@ section h2 {
   align-items: center;
   margin: 26px;
 }
+.biografia__img {
+  margin:25px;
+}
 
 .biografia__parrafo {
   color: whitesmoke;
   background-color: black;
-  font-size: 22px;
+  font-size: 21px;
   text-align: justify;
   padding: 10px 30px;
   line-height: 1.5;
@@ -174,7 +174,7 @@ section h2 {
   width: 1000px;
 }
 .sets__titulo {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .set {
   display: flex;
@@ -244,12 +244,7 @@ section h2 {
   background-color: #929292;
   width: 40%;
   border-radius: 3px;
-  background: linear-gradient(
-    90deg,
-    hsla(212, 29%, 13%, 1) 0%,
-    hsla(56, 59%, 86%, 1) 100%,
-    hsla(25, 85%, 69%, 1) 100%
-  );
+
 }
 
 section {
