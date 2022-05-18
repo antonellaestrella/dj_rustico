@@ -24,7 +24,6 @@ header {
 }
 footer {
   color: white;
-  margin: 20px 10px;
   padding: 30px;
   background: linear-gradient(
     283deg,
@@ -146,22 +145,19 @@ section h2 {
 
 /*biografia*/
 
-.biografia {
-  height: 120vh;
-}
 .biografia__container {
   display: flex;
+  align-items: center;
   margin: 26px;
 }
 
 .biografia__parrafo {
-  color:#929292;
+  color: whitesmoke;
   background-color: black;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
+  font-size: 22px;
   text-align: justify;
-  padding: 40px 25px;
+  padding: 10px 30px;
+  line-height: 1.5;
 }
 
 /*musica*/
@@ -221,50 +217,41 @@ section h2 {
 }
 
 /*contacto*/
+.noticias__principal {
+  display: flex;
+  justify-content: center;
+}
+
 .noticias__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px 0px;
   padding: 20px 5px;
 }
-.contacto {
-  height: 55vh;
+.noticias a img {
+  margin: 10px;
 }
-.formulario__container {
-  padding: 50px 20px;
-  background-color: #929292;
-  width: 40%;
-  background: linear-gradient(
-    283deg,
-    rgba(0, 0, 0, 1) 35%,
-    rgba(97, 94, 94, 1) 91%
-  );
-}
-
-
-
-
-
-
-/* .contacto {
-  height: 75vh;
+.contact__section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contacto__contactanos {
-  padding: 80px 20px;
-} */
-/* form {
-  display: flex;
-  justify-content: center;
-}
-fieldset {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
+.formulario__container {
+  color: white;
+  font-weight: bold;
+  padding: 50px 30px;
+  margin: 20px;
+  background-color: #929292;
   width: 40%;
-} */
+  border-radius: 3px;
+  background: linear-gradient(
+    90deg,
+    hsla(212, 29%, 13%, 1) 0%,
+    hsla(56, 59%, 86%, 1) 100%,
+    hsla(25, 85%, 69%, 1) 100%
+  );
+}
+
 section {
   color: white;
 }
@@ -334,6 +321,12 @@ section p {
   .fotos__img img {
     width: 80%;
   }
+  .noticias__container {
+    flex-direction: column;
+  }
+  .contact__section {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -376,4 +369,14 @@ section p {
     display: flex;
     justify-content: center;
   }
-} 
+  .noticias__container {
+    flex-direction: column;
+  }
+  .noticias a img {
+    width: 95%;
+  }
+  .contact__section {
+    flex-direction: column;
+  }
+}
+

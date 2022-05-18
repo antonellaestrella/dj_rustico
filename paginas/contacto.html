@@ -28,7 +28,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"
-            ><img src="../recursos/rustico-logo.png"></a>
+            ><img src="../recursos/rustico-logo.png"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,10 +44,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >INICIO</a
                 >
               </li>
@@ -63,7 +61,7 @@
                 <a class="nav-link" href="./galeria.html">GALERIA</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                <a class="nav-link" href="./contacto.html">NOVEDADES</a>
               </li>
             </ul>
           </div>
@@ -71,54 +69,65 @@
       </nav>
     </header>
     <main class="contacto">
-      <!-- <form class="formulario" action="registrardatos.php" method="post">
-        <fieldset>
-          <legend>Datos personales</legend>
-          Nombre:
-          <input type="text" name="nombre" size="30" /><br />
-          Correo:
-          <input type="text" name="correo" size="30" /><br />
-          Telefono:
-          <input type="text" name="telefono" size="30" /><br />
-
-          <input type="submit" value="Enviar" /> <br />
-        </fieldset>
-      </form> -->
-      <p class="noticias__titulo">Noticias</p>
-      <section class="noticias__container">
+      <h1 class="noticias__titulo">Noticias</h1>
+      <section class="noticias__principal">
         <div class="noticias">
           <a
             href="https://inmendoza.com/musica/sebastian-chavarri-rustico-dj-de-riesgo"
             target="blank"
-            ><img src="../recursos/nota-1.png"
+            ><img class="img-fluid" src="../recursos/nota-1.png"
+          /></a> 
+        </div>
+      </section>
+      <section class="noticias__container">
+        <div class="noticias">
+          <a
+            href="http://cassetteblog.com/2012/07/dj-rustico-balkumbia-exclusivo-cassette"
+            target="blank"
+            ><img class="img-fluid" src="../recursos/nota-2.png"
           /></a>
         </div>
         <div class="noticias">
           <a
             href="https://hombreshablandodesuspeinados.tumblr.com/post/64104510070/sebastian-chavarri-la-paso-realmente-mal-en-la"
             target="blank"
-            ><img src="../recursos/nota-3.png"
+            ><img class="img-fluid" src="../recursos/nota-3.jpg"
           /></a>
         </div>
       </section>
-
-
-
-
-      <form class="formulario__container">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text"></div>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Mail</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-        </div>
-        <button type="submit" class="btn btn-light">ENVIAR</button>
-      </form>
+      <section class="contact__section">
+        <p>Deja tus datos y en breve te contacto</p>
+        <form class="formulario__container">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Nombre y Apellido</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Mail</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Mensaje</label
+            >
+            <input type="text" class="form-control" />
+          </div>
+          <div class="mb-3 form-check"></div>
+          <button type="submit" class="btn btn-dark">ENVIAR</button>
+        </form>
+      </section>
     </main>
 
     <footer>
@@ -136,3 +145,4 @@
     ></script>
   </body>
 </html>
+
