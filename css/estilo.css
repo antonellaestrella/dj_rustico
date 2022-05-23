@@ -154,7 +154,7 @@ section h2 {
 .biografia__parrafo {
   color: whitesmoke;
   background-color: black;
-  font-size: 21px;
+  font-size: 20px;
   text-align: justify;
   padding: 10px 30px;
   line-height: 1.5;
@@ -263,6 +263,14 @@ section p {
   header {
     flex-direction: column;
     align-items: center;
+  }
+
+  .portada__imagen {
+    width:50% ;
+  }
+
+  .biografia__img{
+    width: 100%;
   }
 
   header ul li {
