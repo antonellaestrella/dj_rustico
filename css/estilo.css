@@ -269,13 +269,11 @@ section h2 {
   margin: 10px; }
 
 /*contacto*/
-.noticias__principal {
+.noticias__principal, .noticias__container {
   display: flex;
   justify-content: center; }
 
 .noticias__container {
-  display: flex;
-  justify-content: center;
   margin: 20px 0px;
   padding: 20px 5px; }
 
