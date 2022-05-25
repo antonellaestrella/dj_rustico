@@ -64,6 +64,10 @@
     .fotos__img img {
       width: 80%;
     }
+    .noticias {
+      display:flex;
+      justify-content: center;
+    }
     .noticias__container {
       flex-direction: column;
     }
