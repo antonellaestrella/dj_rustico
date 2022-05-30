@@ -56,7 +56,7 @@
     /*eventos*/
   
     .fechas__eventos {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr) !important ;
       grid-template-rows: repeat(6, 1fr);
     }
     /*galeria*/
@@ -84,12 +84,23 @@
   
     /*index*/
   
+    .navbar-brand img{
+      width: 70%;
+    }
+    
     .portada__imagen {
       width: 50%;
       height: 400px;
       margin: 0px;
     }
-  
+    .portada__legend {
+      width:50%; 
+    }
+
+    .portada__frente{
+      margin:0%;
+    }
+    
     .sets__container img {
       width: 500px;
     }
@@ -108,10 +119,13 @@
     /*eventos*/
   
     .fechas__eventos {
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr) !important ;
       grid-template-rows: repeat(12, 1fr);
+    
     }
+    
     /*galeria*/
+    
     .galeria-img-container {
       display: flex;
       justify-content: center;

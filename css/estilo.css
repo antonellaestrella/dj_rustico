@@ -35,7 +35,7 @@
     width: 600px; }
   /*eventos*/
   .fechas__eventos {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     grid-template-rows: repeat(6, 1fr); }
   /*galeria*/
   .fotos__img img {
@@ -53,10 +53,16 @@
     margin: 7px;
     font-size: 1rem; }
   /*index*/
+  .navbar-brand img {
+    width: 70%; }
   .portada__imagen {
     width: 50%;
     height: 400px;
     margin: 0px; }
+  .portada__legend {
+    width: 50%; }
+  .portada__frente {
+    margin: 0%; }
   .sets__container img {
     width: 500px; }
   /*musica*/
@@ -68,7 +74,7 @@
     width: 500px; }
   /*eventos*/
   .fechas__eventos {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
     grid-template-rows: repeat(12, 1fr); }
   /*galeria*/
   .galeria-img-container {
@@ -138,8 +144,7 @@ main h2 {
   margin: 100px 0px; }
 
 .portada__imagen {
-  margin: 0px;
-  height: 800px; }
+  margin: 0px; }
 
 .portada_legend {
   padding: 50px; }
@@ -169,7 +174,7 @@ h1 {
   color: white;
   text-align: center;
   text-decoration: underline;
-  font-size: 60px; }
+  font-size: 40px; }
 
 p {
   line-height: 30px;
@@ -193,7 +198,8 @@ section h2 {
 
 .set {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 10px; }
   .set .set a {
     color: black;
     background-color: white;
@@ -225,11 +231,11 @@ section h2 {
   flex-direction: column;
   align-items: center; }
 
+.setMusica {
+  margin: 10px 0px; }
+
 .setMusica:hover {
   opacity: 0.7; }
-
-.setMusica img {
-  width: 1000px; }
 
 .sets__titulo {
   margin-top: 150px; }
