@@ -80,12 +80,15 @@
   .galeria-img-container {
     display: flex;
     justify-content: center; }
+  /*contacto*/
   .noticias__container {
     flex-direction: column; }
   .noticias a img {
     width: 95%; }
   .contact__section {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .formulario__container {
+    width: 85% !important; } }
 
 * {
   margin: 0px;
