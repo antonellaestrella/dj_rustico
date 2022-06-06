@@ -113,29 +113,24 @@ header {
   color: white; }
 
 footer {
-  color: white;
-  padding: 30px;
-  background: linear-gradient(0deg, black 0%, #424949 100%); }
-
-footer {
   padding: 30px;
   display: flex;
   justify-content: center;
-  margin-top: 60px; }
-
-footer i {
-  font-size: 30px;
-  margin: 0px 20px; }
-
-footer i:hover {
-  color: grey; }
+  margin-top: 60px;
+  color: white;
+  padding: 30px;
+  background: linear-gradient(0deg, black 0%, #424949 100%); }
+  footer i {
+    font-size: 30px;
+    margin: 0px 20px; }
+  footer i:hover {
+    color: grey; }
 
 /*index*/
 main {
   color: white; }
-
-main h2 {
-  margin-bottom: 20px; }
+  main h2 {
+    margin-bottom: 20px; }
 
 .portada__logo {
   margin: 15px; }
@@ -149,7 +144,7 @@ main h2 {
 .portada__imagen {
   margin: 0px; }
 
-.portada_legend {
+.portada__legend {
   padding: 50px; }
 
 .pic__container {
@@ -203,7 +198,7 @@ section h2 {
   display: flex;
   align-items: center;
   margin: 10px; }
-  .set .set a {
+  .set a {
     color: black;
     background-color: white;
     border-radius: 1px;
@@ -308,10 +303,8 @@ section h2 {
 
 section {
   color: white; }
-
-section h1 {
-  padding: 30px 5px; }
-
-section p {
-  margin: 0px;
-  padding: 40px 5px; }
+  section h1 {
+    padding: 30px 5px; }
+  section p {
+    margin: 0px;
+    padding: 40px 5px; }
