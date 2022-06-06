@@ -134,7 +134,11 @@ footer {
   .sets__container img {
     width: 350px; }
   .setMusica img {
-    width: 350px; } }
+    width: 350px; }
+  .portada__frente {
+    margin: 0px; }
+  .portada__imagen {
+    height: 260px; } }
 
 main {
   color: white; }
