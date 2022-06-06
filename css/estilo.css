@@ -138,7 +138,9 @@ footer {
   .portada__frente {
     margin: 0px; }
   .portada__imagen {
-    height: 260px; } }
+    height: 260px; }
+  .fechas__eventos {
+    width: 350px; } }
 
 main {
   color: white; }
