@@ -1,0 +1,42 @@
+.noticias {
+    &__principal {
+      display: flex;
+      justify-content: center;
+    }
+    &__container{
+      @extend .noticias__principal;
+    margin: 20px 0px;
+    padding: 20px 5px;
+    }
+
+  }
+  
+  .noticias a img {
+    margin: 10px;
+  }
+  .contact__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulario__container {
+    color: white;
+    font-weight: bold;
+    padding: 50px 30px;
+    margin: 20px;
+    background-color: #929292;
+    width: 40%;
+    border-radius: 3px;
+  
+  }
+  
+  section {
+    color: white;
+    h1 {
+      padding: 30px 5px;
+    }
+    p {
+      margin: 0px;
+    padding: 40px 5px;
+    }
+  }

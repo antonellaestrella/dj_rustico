@@ -1,0 +1,30 @@
+@mixin slide($alto, $ancho) {
+    width: $alto;
+    height: $ancho;
+  }
+
+  .slide{
+    &-section {
+      @include slide(100%, 75vh)
+    }
+    &-1 {
+      background: url("../recursos/carousel-1.png") no-repeat center;
+    background-size: cover;
+    }
+    &-2 {
+      background: url("../recursos/carousel-2.png") no-repeat center;
+    background-size: cover;
+    }
+    &-3 {
+      background: url("../recursos/carousel-3.png") no-repeat center;
+    background-size: cover;
+    }
+  }
+
+  
+  .galeria-container {
+    margin-top: 20px;
+  }
+  .galeria-container img {
+    margin: 10px 0px;
+  }

@@ -1,0 +1,63 @@
+$dark:rgb(0, 0, 0);
+
+$backgroundset:hsl(0, 0%, 100%);
+
+$estilosHeader:(
+    background-c:black,
+    position:sticky,
+    top:0,
+    z-i:100,
+  );
+  $font-principal: "Raleway", sans-serif;
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: $dark;
+    font-family: $font-principal;
+  }
+  
+  $estilosHeader:(
+    background-c:black,
+    position:sticky,
+    top:0,
+    z-i:100,
+  );
+
+  header {
+    background-color: map-get($estilosHeader, background-c);
+    position: map-get($estilosHeader, position);
+    top: map-get($estilosHeader, top);
+    z-index: map-get($estilosHeader, z-i);
+  }
+  
+  .navbar {
+    &-collapse {
+      justify-content: end;
+    }
+    &-dark .navbar-nav .nav-link {
+      font-size: 1.1rem;
+    margin: 0px 10px;
+    color:white;
+    }
+  }
+
+  
+  footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    padding: 30px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(66,73,73,1) 100%);
+    i {
+      font-size: 30px;
+      margin: 0px 20px;
+    }
+    i:hover {
+      color: grey;
+    }
+  }

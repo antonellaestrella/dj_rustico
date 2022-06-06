@@ -76,6 +76,8 @@
     }
   }
   
+  
+
   @media only screen and (max-width: 576px) {
     header ul li {
       margin: 7px;
@@ -147,3 +149,19 @@
       width: 85% !important;
     }
   }
+
+  @media only screen and (max-width: 420px){
+    .navbar-brand {
+      width:70%;
+    }
+    .navbar-brand img {
+      width: 70%;
+    }
+    .sets__container img {
+      width:350px;
+    }
+    .setMusica img {
+      width: 350px;
+    }
+  }
+

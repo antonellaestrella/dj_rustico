@@ -1,0 +1,97 @@
+main {
+    color: white;
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  .portada{
+    &__logo {
+      margin: 15px;
+    }
+    &__frente{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px;
+    }
+    &__imagen{
+      margin: 0px;
+    }
+    &__legend {
+      padding: 50px;
+    }
+  }
+  
+  .pic__container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    img {
+      width: 270px;
+      margin: 27px;
+      padding: 30px;
+      border: 1px solid white;
+      background-color: white;
+    }
+  }
+  
+   div .setvuelonocturno__img {
+    display: flex;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  main h1 {
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+  }
+  
+  p {
+    line-height: 30px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  section h2 {
+    padding: 50px;
+  }
+  
+  .sets__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 20px 5px;
+  }
+  
+  .set {
+    display: flex;
+    align-items: center;
+    margin:10px;
+     a {
+      color: black;
+      background-color: $backgroundset;
+      border-radius: 1px;
+      margin: 0px 10px;
+      padding: 10px;
+      margin: 5px;
+    }
+
+  }
