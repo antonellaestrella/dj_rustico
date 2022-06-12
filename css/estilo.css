@@ -184,7 +184,6 @@ main h1 {
 h1 {
   color: white;
   text-align: center;
-  text-decoration: underline;
   font-size: 40px; }
 
 p {
@@ -252,6 +251,9 @@ section h2 {
 .set {
   display: flex;
   align-items: center; }
+
+.sets__live {
+  font-size: 40px; }
 
 .slide-section {
   width: 100%;
