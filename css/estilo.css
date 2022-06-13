@@ -151,8 +151,7 @@ main {
 .portada__frente {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 100px 0px; }
+  align-items: center; }
 
 .portada__imagen {
   margin: 0px; }
