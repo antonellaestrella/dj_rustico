@@ -93,7 +93,6 @@ footer {
     width: 70%; }
   .portada__imagen {
     width: 50%;
-    height: 400px;
     margin: 0px; }
   .portada__legend {
     width: 50%; }
@@ -151,7 +150,8 @@ main {
 .portada__frente {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  overflow: hidden; }
 
 .portada__imagen {
   margin: 0px; }
@@ -203,7 +203,8 @@ section h2 {
   justify-content: space-around;
   align-items: center;
   margin: 10px 0px;
-  padding: 20px 5px; }
+  padding: 20px 5px;
+  overflow: hidden; }
 
 .set {
   display: flex;
