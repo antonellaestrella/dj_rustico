@@ -135,9 +135,7 @@ footer {
   .setMusica img {
     width: 350px; }
   .portada__frente {
-    margin: 0px; }
-  .portada__imagen {
-    height: 260px; } }
+    margin: 0px; } }
 
 main {
   color: white; }
@@ -158,6 +156,9 @@ main {
 
 .portada__legend {
   padding: 50px; }
+
+.portada__legend p {
+  line-height: 3rem; }
 
 .pic__container {
   display: flex;
@@ -220,7 +221,6 @@ section h2 {
 
 .biografia__container {
   display: flex;
-  align-items: center;
   margin: 26px; }
 
 .biografia__img {
@@ -231,7 +231,7 @@ section h2 {
   background-color: black;
   font-size: 20px;
   text-align: justify;
-  padding: 10px 30px;
+  padding: 25px 30px;
   line-height: 1.5; }
 
 .musica {

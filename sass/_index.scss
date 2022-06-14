@@ -11,7 +11,7 @@ main {
       margin: 15px;
     }
     &__frente{
-      display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
@@ -21,6 +21,9 @@ main {
     }
     &__legend {
       padding: 50px;
+    }
+    &__legend p {
+      line-height: 3rem;
     }
   }
   
